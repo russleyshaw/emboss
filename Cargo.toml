@@ -1,5 +1,5 @@
 [package]
-name = "cuwuses"
+name = "crss"
 version = "0.1.0"
 authors = ["russley"]
 edition = "2018"
@@ -10,3 +10,6 @@ edition = "2018"
 libc = "0.2.70"
 tokio = { version = "0.2", features = ["full"] }
 rand = "0.7.3"
+
+[build-dependencies]
+bindgen = "0.54.0"
